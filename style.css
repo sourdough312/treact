@@ -1,2 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* font-family: "Inter", sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+  letter-spacing: 0.4px;
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 
+
+NAV!!!!!!!!!!!!
+
+*/
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 32px;
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__img {
+  width: 40px;
+}
+
+.logo__text {
+  font-weight: 900;
+  font-size: 24px;
+  padding-left: 8px;
+}
+
+.nav__links {
+  display: flex;
+  padding-top: 4px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.page__links {
+  padding-right: 64px;
+  gap: 32px;
+}
+
+.login__links {
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #6415ff;
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 12px 32px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
