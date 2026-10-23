@@ -32,7 +32,7 @@ img {
 
 .row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1350px;
   margin: 0 auto;
 }
 
@@ -89,7 +89,7 @@ nav {
 button {
   background-color: #6415ff;
   color: white;
-  width: 100%;
+  width: auto;
   border: none;
   padding: 12px 32px;
   cursor: pointer;
@@ -106,3 +106,105 @@ HERO!!!!!! (I WANNA BE A PSYCHO HEROOOOOOO)
 
 */
 
+.hero {
+  padding: 60px 32px;
+  display: flex;
+  margin: 88px auto 0 auto;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  color: black;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.1px;
+}
+
+span {
+  color: #6415ff;
+}
+
+.hero__description {
+  line-height: 28px;
+  padding: 28px 0;
+  font-size: 18px;
+  letter-spacing: 0.1px;
+}
+
+.hero__input {
+  margin-bottom: 40px;
+}
+
+form {
+  border: 2px solid #e5e7eb;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+}
+
+input {
+  outline: none;
+  border: none;
+  padding: 0 24px;
+  margin: 0 4px;
+  color: #243e63;
+  font-size: 16px;
+  width: 55%;
+}
+
+input::placeholder {
+  color: #a8aaba;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+form button {
+  margin: 6px;
+  padding: 16px 32px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+
+.hero__customers {
+  padding-top: 40px;
+}
+
+.hero__customers p {
+  color: #a8aaba;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.hero__customer-logos--wrapper {
+  padding-top: 16px;
+  width: 78%;
+}
+
+.hero__customer-logos {
+  opacity: 50%;
+}
+
+.hero__img--wrapper {
+  width: 60%;
+  justify-content: right;
+  align-items: end;
+}
+
+.hero__img {
+  width: 100%;
+  justify-content: right;
+  align-items: end;
+}
