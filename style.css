@@ -236,15 +236,15 @@ FEATURES!!!!!!!!!!!!
   justify-content: center;
   align-items: center;
   letter-spacing: 1.5px;
-  padding: 12px;
+  padding: 12px 0;
 }
 
 .section__tagline {
-  display: flex;
   justify-content: center;
   font-size: 50px;
   font-weight: 800;
-  padding: 12px;
+  padding: 12px 0;
+  text-align: center;
 }
 
 .section__description {
@@ -255,7 +255,7 @@ FEATURES!!!!!!!!!!!!
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 12px;
+  padding: 12px 0;
   width: 575px;
   margin: 0 auto;
   letter-spacing: normal;
@@ -303,4 +303,72 @@ FEATURES!!!!!!!!!!!!
   color: #90929c;
   font-weight: 500;
   line-height: 30px;
+}
+
+/* 
+
+QUALITY!!!!!!!!!!!!!!!
+
+*/
+
+#quality {
+  max-width: 1275px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#quality .container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.quality__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 50%;
+  padding-right: 100px;
+}
+
+.quality__info .section__tagline {
+  justify-content: start;
+  align-items: center;
+  text-align: left;
+}
+
+.quality__info .section__description {
+  text-align: left;
+  margin-bottom: 12px;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.quality__img--wrapper {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.quality__img {
+  width: 575px;
+  border: 1px solid #dadeee;
+  border-radius: 4px;
+  z-index: 100;
+}
+
+.quality__grid {
+  fill: #6415ff;
+  position: absolute;
+  width: 75px;
+  top: 330px;
+  left: 570px;
 }
