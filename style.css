@@ -242,7 +242,7 @@ FEATURES!!!!!!!!!!!!
 .section__tagline {
   justify-content: center;
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 900;
   padding: 12px 0;
   text-align: center;
 }
@@ -450,4 +450,102 @@ STEPS!!!!!!!!!!!!!!!!!!!!!
   font-weight: 500;
   line-height: 28px;
   letter-spacing: normal;
+}
+
+/* 
+
+VALUES!!!!!!!!!!!!!!!
+
+*/
+
+#values {
+  max-width: 1275px;
+  margin: 200px auto 88px auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#values .row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.values__info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.values__info .section__tagline {
+  justify-content: start;
+  align-items: center;
+  text-align: left;
+}
+
+.values__info .section__description {
+  justify-content: start;
+  align-items: center;
+  text-align: left;
+}
+
+.values__container {
+  display: flex;
+  padding: 16px 0 36px 0;
+}
+
+.value {
+  padding: 0 32px 0 0;
+}
+
+.value__title {
+  display: flex;
+  align-items: center;
+  padding: 0 0 12px 0;
+}
+
+.value__img--wrapper {
+  border-radius: 50px;
+  padding: 8px 6px 4px 6px;
+  background-color: #9ae6b4;
+  /* flex: auto; */
+  margin: 0 0 auto 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+  background-color: #feb2b2;
+}
+
+.value__img {
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.value__name {
+  padding: 0 12px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: normal;
+}
+
+.value__description {
+  color: #718096;
+  letter-spacing: normal;
+  padding: 10px 0 ;
+  line-height: 1.5;
+}
+
+.values__img--wrapper {
+  padding: 12px 0 12px 56px;
+}
+
+.values__img {
+  width: 100%;
 }
