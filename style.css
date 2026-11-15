@@ -372,3 +372,82 @@ QUALITY!!!!!!!!!!!!!!!
   top: 330px;
   left: 570px;
 }
+
+/* 
+
+STEPS!!!!!!!!!!!!!!!!!!!!!
+
+*/
+
+#steps {
+  max-width: 1275px;
+  margin: 200px auto 88px auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#steps .row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.steps__img--wrapper {
+  width: 50%;
+  display: flex;
+  padding: 0;
+  position: relative;
+}
+
+.steps__grid {
+  position: absolute;
+  z-index: -1;
+  color: rgb(100, 21, 255);
+  fill: rgb(100, 21, 255);
+  opacity: 0.8;
+  top: 304px;
+  width: 150px;
+  left: 244px;
+}
+
+.steps__info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: start;
+  padding: 0 50px 0 60px;
+}
+
+.steps__container {
+  margin: 0 136px 15px auto;
+}
+
+.step {
+  padding: 15px 0;
+  flex-direction: row;
+  display: flex;
+}
+
+.step__number {
+  font-weight: 600;
+  font-size: 36px;
+  padding: 0 25px 0 0;
+  color: #cbd5e0;
+}
+
+.step__title {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 4px 0 12px;
+}
+
+.step__details {
+  color: #718096;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: normal;
+}
